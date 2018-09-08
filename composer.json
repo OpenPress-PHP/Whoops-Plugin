@@ -1,0 +1,27 @@
+{
+    "name": "openpress/whoops",
+    "description": "Adds Whoops to OpenPress",
+    "version": "0.1.0",
+    "type": "openpress-plugin",
+    "authors": [
+        {
+            "name": "Dominic Carrington",
+            "email": "carringtondominic@gmail.com"
+        }
+    ],
+    "require": {
+        "filp/whoops": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "OpenPress\\Plugin\\Whoops\\": "src/"
+        }
+    },
+    "extra": {
+        "openpress": {
+            "enabled": true,
+            "class": "OpenPress\\Plugin\\Whoops\\WhoopsPlugin",
+            "priority": 2
+        }
+    }
+}
