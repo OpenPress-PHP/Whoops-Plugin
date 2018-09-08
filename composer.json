@@ -9,7 +9,14 @@
             "email": "carringtondominic@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dominiccarrington/OpenPress-CustomInstaller"
+        }
+    ],
     "require": {
+        "openpress/plugin-installer-plugin": "dev-master",
         "filp/whoops": "^2.2"
     },
     "autoload": {
