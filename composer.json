@@ -10,13 +10,8 @@
         }
     ],
     "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/OpenPress-PHP/Custom-Installer"
-        }
     ],
     "require": {
-        "openpress/composer-custom-installer": "dev-master",
         "filp/whoops": "^2.2"
     },
     "autoload": {
