@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "openpress/plugin-installer-plugin": "dev-master",
+        "openpress/plugin-installer-plugin": "*",
         "filp/whoops": "^2.2"
     },
     "autoload": {
