@@ -26,7 +26,6 @@
     },
     "extra": {
         "openpress": {
-            "enabled": true,
             "class": "OpenPress\\Plugin\\Whoops\\WhoopsPlugin",
             "priority": 2
         }
