@@ -27,7 +27,7 @@
     "extra": {
         "openpress": {
             "class": "OpenPress\\Plugin\\Whoops\\WhoopsPlugin",
-            "priority": 2
+            "priority": 100
         }
     }
 }
